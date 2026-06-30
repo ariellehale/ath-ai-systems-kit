@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout · AI Systems Starter Kit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">🔒 Secure checkout · <strong>Instant access</strong></div>
+
+<header class="hero center" style="padding:34px 0 10px">
+  <div class="wrap">
+    <span class="eyebrow">Almost yours</span>
+    <h1 style="font-size:32px">Complete your order</h1>
+    <p class="sub" style="font-size:18px">You're one step from handing the busywork to AI.</p>
+  </div>
+</header>
+
+<section style="padding-top:6px">
+  <div class="wrap checkout-grid">
+
+    <div class="summary">
+      <h3 style="margin-top:0">Your order</h3>
+
+      <div class="line">
+        <span class="name">The Allergic to Hourly® AI Systems Starter Kit</span>
+        <span>$27</span>
+      </div>
+      <div class="line" id="line-bump1" style="display:none">
+        <span class="name">+ Charge More Without the Cringe</span>
+        <span>$17</span>
+      </div>
+      <div class="line" id="line-bump2" style="display:none">
+        <span class="name">+ Your Business by Design</span>
+        <span>$19</span>
+      </div>
+
+      <div class="total-line">
+        <span>Total</span>
+        <span id="total">$27</span>
+      </div>
+
+      <p class="small muted" style="margin-top:14px">What you get instantly: 5 prompts + 5 ready-to-install Claude Skills, the Airtable base, the 20-minute quickstart guide, and both bonus prompts.</p>
+    </div>
+
+    <div>
+      <h3>Add these to your order?</h3>
+
+      <label class="bump" for="bump1">
+        <input type="checkbox" id="bump1">
+        <span>
+          <span class="b-title">Yes, add "Charge More Without the Cringe" — <span class="b-price">$17</span></span><br>
+          <small>Pricing and proposal scripts that hold your price, so you stop quietly screaming "pay me less." Build the systems, then actually charge what they're worth.</small>
+        </span>
+      </label>
+
+      <label class="bump" for="bump2">
+        <input type="checkbox" id="bump2">
+        <span>
+          <span class="b-title">Yes, add "Your Business by Design" — <span class="b-price">$19</span></span><br>
+          <small>A short Human Design guide to set up your offers, schedule, and content around how you're actually wired, so your systems fit you instead of fighting you.</small>
+        </span>
+      </label>
+
+      <button id="pay-btn" class="btn btn-block btn-lg" style="margin-top:8px">Connect Checkout Link Here · $27</button>
+
+      <div class="trust">
+        <span>🔒 Secure payment</span>
+        <span>⚡ Instant access</span>
+        <span>♾️ Yours to keep</span>
+      </div>
+
+      <div class="guarantee">
+        <strong>Try it risk-free.</strong> Build a system this weekend. If it doesn't save you real time, reply within 14 days and I'll refund you. You keep what you built.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Allergic to Hourly® · Hale Yeah! Coaching<br>
+    <a href="index.html">← Back to the offer</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
