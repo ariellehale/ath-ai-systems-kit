@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You're staying · Arielle Hale</title>
+<meta name="robots" content="noindex">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap');
+:root{
+  --ink:#1c151a; --ink-soft:#5b5158; --paper:#f6f2ec; --card:#fffdf9;
+  --line:#e6ddd0; --wine:#5c1322; --red:#cf1417; --red-dark:#a50f12; --sky:#8fb9cc;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; min-height:100vh; font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:var(--ink); background:var(--paper); line-height:1.65;
+  display:flex; align-items:center; justify-content:center; padding:32px 20px;
+  -webkit-font-smoothing:antialiased; position:relative; overflow-x:hidden;
+}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:5;opacity:.035;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+.glow{position:fixed;left:50%;top:30%;transform:translate(-50%,-50%);width:680px;height:480px;border-radius:50%;z-index:0;
+  background:radial-gradient(closest-side, rgba(143,185,204,.32), rgba(143,185,204,0) 70%);filter:blur(12px)}
+.wrap{position:relative;z-index:10;max-width:560px;width:100%;text-align:center}
+.eyebrow{display:inline-block;font-size:12px;font-weight:700;letter-spacing:2.6px;text-transform:uppercase;color:var(--red);margin-bottom:18px}
+h1{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:44px;line-height:1.08;letter-spacing:-.01em;margin:0 0 22px}
+p{font-size:18px;margin:0 0 18px;color:var(--ink)}
+.muted{color:var(--ink-soft);font-size:16px}
+.divider{width:40px;height:3px;background:var(--red);border:none;border-radius:2px;margin:26px auto}
+.btn{display:inline-block;background:var(--red);color:#fff;font-weight:600;font-size:17px;
+  padding:15px 32px;border-radius:999px;text-decoration:none;box-shadow:0 10px 24px rgba(207,20,23,.26);
+  transition:background .15s ease}
+.btn:hover{background:var(--red-dark)}
+.sign{font-family:Fraunces,Georgia,serif;font-style:italic;font-size:20px;color:var(--wine);margin-top:30px}
+@media (max-width:560px){h1{font-size:34px}p{font-size:17px}}
+</style>
+</head>
+<body>
+<div class="glow"></div>
+<div class="wrap">
+  <span class="eyebrow">You're staying</span>
+  <h1>You're in. And I'm really glad you didn't go.</h1>
+  <p>That one click is all it took. You'll keep getting my emails: the business-that-runs-without-you stuff, the inner work underneath it, and the real, unpolished version of all of it.</p>
+  <p>I went quiet for a few years while I put my life back together. I'm back now, and I'm just getting started. It means a lot that you'll be here for it.</p>
+  <hr class="divider">
+  <p class="muted">Nothing else to do right now. The next email comes when it comes.</p>
+  <p style="margin-top:24px"><a href="https://ariellehale.substack.com" class="btn">Read the whole story →</a></p>
+  <p class="sign">With love,<br>Ari</p>
+</div>
+</body>
+</html>
